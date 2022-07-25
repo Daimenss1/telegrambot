@@ -1,7 +1,7 @@
 --liquibase formatted sql
 
 --changeset daimenss:1
-create table notification_task
+create table notification
 (
     id                      serial NOT NULL PRIMARY KEY,
     chat_id                 bigint NOT NULL,
